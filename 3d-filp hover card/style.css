@@ -45,6 +45,11 @@ body{
     transform:skewY(-45deg);
 }
 
+.card .imgbox img{
+    width: 300px;
+    height: 400px;
+}
+
 .card .imgbox{
     width: 100%;
     height: 100%;
@@ -54,4 +59,21 @@ body{
 }
 .card:hover .imgbox{
     transform:rotateY(-135deg);
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+.card{
+    position: absolute;
+    
+    width: 120px;
+    height: 225px;
+    
+  }
+  
+.card .imgbox img{
+    width: 120px;
+    height: 225px;
+}
 }
