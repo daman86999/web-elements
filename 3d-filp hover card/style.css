@@ -67,13 +67,16 @@ body{
 .card{
     position: absolute;
     
-    width: 120px;
+    width: 150px;
     height: 225px;
+    transform:translate(-30%,-30%) perspective(2000px);
     
   }
-  
+.card:hover{
+    transform:translate(-30%,-30%) perspective(2000px) rotate(-10deg);
+}
 .card .imgbox img{
-    width: 120px;
+    width: 150px;
     height: 225px;
 }
 }
